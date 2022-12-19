@@ -28,3 +28,4 @@ public class MyClass {
 
 ### Reference
 - **https://stackoverflow.com/questions/11915026/permutations-of-a-string-using-iteration**
+- **https://www.geeksforgeeks.org/permutations-string-using-iteration/**
