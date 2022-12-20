@@ -26,6 +26,13 @@ public class MyClass {
 }
 ```
 
+```python
+from itertools import permutations
+
+for a in permutations("ABCD", 4):
+   print(f"{a}")
+```
+
 ### Reference
 - **https://stackoverflow.com/questions/11915026/permutations-of-a-string-using-iteration**
 - **https://www.geeksforgeeks.org/permutations-string-using-iteration/**
