@@ -1,9 +1,9 @@
 permutation-playground
 ======================
-```java
-import java.util.*;
-
-public class MyClass {
+- ```java
+  import java.util.*;
+  
+  public class MyClass {
     public static void main(String args[]) {
         List<String> results = new ArrayList<String>();
         String test_str = "abcd";
@@ -23,15 +23,15 @@ public class MyClass {
         System.out.println("Number of Permutations: " + results.size());
         System.out.println(results);
     }
-}
-```
+    }
+    ```
+- [itertools — Functions creating iterators for efficient looping — Python 3.11.1 documentation](https://docs.python.org/3/library/itertools.html)
+    ```python
+    from itertools import permutations
 
-```python
-from itertools import permutations
-
-for a in permutations("ABCD", 4):
-   print(f"{a}")
-```
+    for a in permutations("ABCD", 4):
+       print(f"{a}")
+    ```
 
 ### Reference
 - **https://stackoverflow.com/questions/11915026/permutations-of-a-string-using-iteration**
